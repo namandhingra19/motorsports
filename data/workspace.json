@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T17:20:25.756Z",
+  "updatedAt": "2026-09-14T17:38:31.993Z",
   "members": [
     {
       "id": "u_admin",
@@ -306,6 +306,19 @@
       "isIdea": true,
       "createdBy": "u_admin",
       "createdAt": "2026-09-14T17:20:25.756Z"
+    },
+    {
+      "id": "b_3bef753172c8",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "Raman",
+      "description": "",
+      "why": "",
+      "status": "EXPLORING",
+      "assignees": [],
+      "isIdea": true,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:38:31.993Z"
     }
   ],
   "tasks": [
