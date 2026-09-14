@@ -1,0 +1,593 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-14T17:20:25.756Z",
+  "members": [
+    {
+      "id": "u_admin",
+      "name": "Admin",
+      "role": "ADMIN",
+      "password": "5adc451882149377f9fab5d904bd63df:05c6d3a6fa0e0be62fef53c23f9924afa2faa10ecae9cd69595bf8e3d6f8b430",
+      "createdAt": "2026-09-14T17:17:38.554Z"
+    },
+    {
+      "id": "u_m2",
+      "name": "Member 2",
+      "role": "MEMBER",
+      "password": "cd7494dceccdc2dfc6d80b3f7ecf8ae5:d3ce321ccaf8e06c200fc6637016a923d61854ce781e725f3ec6c45563a8c5aa",
+      "createdAt": "2026-09-14T17:17:38.583Z"
+    },
+    {
+      "id": "u_m3",
+      "name": "Member 3",
+      "role": "MEMBER",
+      "password": "1124b6fd9a9953f5f6d598a0860d26e0:72425e63902ae8735ea5ee85c1df978b61d974de3761e627938127259e2466bd",
+      "createdAt": "2026-09-14T17:17:38.612Z"
+    },
+    {
+      "id": "u_m4",
+      "name": "Member 4",
+      "role": "MEMBER",
+      "password": "6e4d9afcb0c4ea7e873b8049a0944579:bfdf6d2591bacb8e29712bc212b6ad084f022b4e6c93ea88cbedaef4ac9b56d0",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    }
+  ],
+  "weeks": [
+    {
+      "id": "w_01",
+      "number": 1,
+      "topic": "Electric Motors",
+      "objective": "Understand the motor industry, technology landscape, market gaps and potential startup opportunities.",
+      "start": "2026-09-14",
+      "end": "2026-09-19",
+      "status": "ACTIVE",
+      "checklist": {},
+      "summary": {},
+      "closedAt": null,
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    }
+  ],
+  "branches": [
+    {
+      "id": "b_market",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "Industry & Market",
+      "description": "Size, growth, segments and who actually buys motors.",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_global",
+      "weekId": "w_01",
+      "parentId": "b_market",
+      "name": "Global market",
+      "description": "",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_india",
+      "weekId": "w_01",
+      "parentId": "b_market",
+      "name": "Indian market",
+      "description": "",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_oem",
+      "weekId": "w_01",
+      "parentId": "b_market",
+      "name": "Manufacturers & OEMs",
+      "description": "",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_eco",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "Indian Ecosystem",
+      "description": "Local players, policy, PLI schemes, import dependence.",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_tech",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "Motor Technology",
+      "description": "Architectures, where each wins, and where the hard problems are.",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_pmsm",
+      "weekId": "w_01",
+      "parentId": "b_tech",
+      "name": "PMSM",
+      "description": "",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_bldc",
+      "weekId": "w_01",
+      "parentId": "b_tech",
+      "name": "BLDC",
+      "description": "",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_ind",
+      "weekId": "w_01",
+      "parentId": "b_tech",
+      "name": "Induction",
+      "description": "",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_srm",
+      "weekId": "w_01",
+      "parentId": "b_tech",
+      "name": "SRM",
+      "description": "",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_axial",
+      "weekId": "w_01",
+      "parentId": "b_tech",
+      "name": "Axial Flux",
+      "description": "High torque density, compact packaging, hard to manufacture.",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_app",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "Applications",
+      "description": "EV traction, industrial drives, HVAC, pumps, drones, robotics.",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_mfg",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "Manufacturing",
+      "description": "Materials, winding, rotor, automation, testing.",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_supply",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "Supply Chain",
+      "description": "Magnets, copper, laminations, controllers, lead times.",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_gaps",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "Market Gaps",
+      "description": "Where the pain is loud and nobody is serving it well.",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_robot",
+      "weekId": "w_01",
+      "parentId": "b_tech",
+      "name": "Robotic Actuators",
+      "description": "Integrated motor + gearbox + encoder + driver units for robot joints.",
+      "why": "Imported actuators are expensive and robotics demand is increasing. Feels like a bigger wedge than motors alone.",
+      "status": "EXPLORING",
+      "assignees": [],
+      "isIdea": true,
+      "createdBy": "u_m3",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "b_a28fc9945aec",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "zx",
+      "description": "zczxc",
+      "why": "zxc",
+      "status": "EXPLORING",
+      "assignees": [],
+      "isIdea": true,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:18:20.761Z"
+    },
+    {
+      "id": "b_0fdf8ca53672",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "asss",
+      "description": "asas",
+      "why": "asas",
+      "status": "EXPLORING",
+      "assignees": [],
+      "isIdea": true,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:18:42.157Z"
+    },
+    {
+      "id": "b_ce9dd2d9f246",
+      "weekId": "w_01",
+      "parentId": "b_0fdf8ca53672",
+      "name": "Naman",
+      "description": "adasd",
+      "why": "",
+      "status": "ACTIVE",
+      "assignees": [],
+      "isIdea": false,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:19:29.674Z"
+    },
+    {
+      "id": "b_c9145c3d9308",
+      "weekId": "w_01",
+      "parentId": null,
+      "name": "asdfsdf",
+      "description": "sdfsdf",
+      "why": "asdfsd",
+      "status": "EXPLORING",
+      "assignees": [],
+      "isIdea": true,
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:20:25.756Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "weekId": "w_01",
+      "branchId": "b_pmsm",
+      "name": "Compare PMSM and BLDC on efficiency, torque density, cost and manufacturability",
+      "description": "",
+      "assignee": "u_m2",
+      "status": "IN PROGRESS",
+      "priority": "HIGH",
+      "deadline": "2026-09-16",
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "updatedAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "t2",
+      "weekId": "w_01",
+      "branchId": "b_india",
+      "name": "Size the Indian motor market by segment and estimate import share",
+      "description": "",
+      "assignee": "u_m3",
+      "status": "IN PROGRESS",
+      "priority": "CRITICAL",
+      "deadline": "2026-09-17",
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "updatedAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "t3",
+      "weekId": "w_01",
+      "branchId": "b_axial",
+      "name": "Map axial flux companies worldwide and what they actually ship",
+      "description": "",
+      "assignee": "u_m4",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "deadline": "2026-09-18",
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "updatedAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "t4",
+      "weekId": "w_01",
+      "branchId": "b_mfg",
+      "name": "Find out what winding automation costs at 10k units a year",
+      "description": "",
+      "assignee": "u_m2",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "deadline": "2026-09-18",
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "updatedAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "t5",
+      "weekId": "w_01",
+      "branchId": "b_supply",
+      "name": "Trace the magnet supply chain and price volatility over five years",
+      "description": "Blocked: no reliable price series without a paid subscription.",
+      "assignee": "u_m4",
+      "status": "BLOCKED",
+      "priority": "HIGH",
+      "deadline": "2026-09-17",
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "updatedAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "t6",
+      "weekId": "w_01",
+      "branchId": "b_gaps",
+      "name": "Interview three motor buyers about their single biggest complaint",
+      "description": "",
+      "assignee": "u_m3",
+      "status": "TODO",
+      "priority": "CRITICAL",
+      "deadline": "2026-09-19",
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "updatedAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "t7",
+      "weekId": "w_01",
+      "branchId": "b_global",
+      "name": "Summarise global market size, growth rate and main segments",
+      "description": "",
+      "assignee": "u_admin",
+      "status": "COMPLETED",
+      "priority": "MEDIUM",
+      "deadline": "2026-09-15",
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "updatedAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "t8",
+      "weekId": "w_01",
+      "branchId": "b_robot",
+      "name": "Price five imported actuator units and work out the landed cost",
+      "description": "",
+      "assignee": "u_m3",
+      "status": "IN PROGRESS",
+      "priority": "HIGH",
+      "deadline": "2026-09-19",
+      "createdBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "updatedAt": "2026-09-14T17:17:38.641Z"
+    }
+  ],
+  "findings": [
+    {
+      "id": "f1",
+      "weekId": "w_01",
+      "branchId": "b_axial",
+      "title": "Axial flux has a power-density advantage",
+      "text": "Axial flux architecture can provide high torque density and compact packaging, but manufacturing complexity remains a major barrier. Nobody in India appears to produce them at volume.",
+      "confidence": "MEDIUM",
+      "tags": [
+        "power density",
+        "manufacturing",
+        "axial flux"
+      ],
+      "sources": [
+        "r2"
+      ],
+      "author": "u_m4",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "f2",
+      "weekId": "w_01",
+      "branchId": "b_india",
+      "title": "Import dependence sits in magnets, not finished motors",
+      "text": "Finished motors are largely made locally, but high-grade permanent magnets are almost entirely imported. That is where both the margin and the risk sit.",
+      "confidence": "HIGH",
+      "tags": [
+        "imports",
+        "magnets",
+        "india"
+      ],
+      "sources": [],
+      "author": "u_m3",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "f3",
+      "weekId": "w_01",
+      "branchId": "b_robot",
+      "title": "Imported robot joints carry a large markup",
+      "text": "List prices for integrated actuator modules are several times the bill of materials once landed cost and distributor margin are added.",
+      "confidence": "LOW",
+      "tags": [
+        "actuators",
+        "pricing"
+      ],
+      "sources": [
+        "r3"
+      ],
+      "author": "u_m3",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "r1",
+      "weekId": "w_01",
+      "branchId": "b_global",
+      "url": "https://example.com/motor-market-report",
+      "title": "Global electric motor market outlook",
+      "description": "Segment split and growth rates by application.",
+      "type": "REPORT",
+      "tags": [
+        "market",
+        "global"
+      ],
+      "addedBy": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "r2",
+      "weekId": "w_01",
+      "branchId": "b_axial",
+      "url": "https://example.com/axial-flux-review",
+      "title": "Axial flux machines: a review of topologies",
+      "description": "Torque density compared against radial flux.",
+      "type": "PAPER",
+      "tags": [
+        "axial flux",
+        "power density"
+      ],
+      "addedBy": "u_m4",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "r3",
+      "weekId": "w_01",
+      "branchId": "b_robot",
+      "url": "https://example.com/actuator-price-list",
+      "title": "Integrated robot joint price list",
+      "description": "List prices for off-the-shelf actuator modules.",
+      "type": "PRODUCT",
+      "tags": [
+        "actuators",
+        "pricing"
+      ],
+      "addedBy": "u_m3",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1",
+      "weekId": "w_01",
+      "branchId": "b_tech",
+      "kind": "NOTE",
+      "text": "Keep the comparison to four axes only: efficiency, torque density, cost, manufacturability. Anything more and we will not finish.",
+      "tags": [
+        "method"
+      ],
+      "author": "u_admin",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "resolved": false
+    },
+    {
+      "id": "n2",
+      "weekId": "w_01",
+      "branchId": "b_gaps",
+      "kind": "QUESTION",
+      "text": "Do buyers actually pay for efficiency, or do they only look at upfront price?",
+      "tags": [
+        "validation"
+      ],
+      "author": "u_m2",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "resolved": false
+    },
+    {
+      "id": "n3",
+      "weekId": "w_01",
+      "branchId": "b_robot",
+      "kind": "QUESTION",
+      "text": "Is the real bottleneck the motor, the gearbox, or the control electronics?",
+      "tags": [
+        "actuators"
+      ],
+      "author": "u_m3",
+      "createdAt": "2026-09-14T17:17:38.641Z",
+      "resolved": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "targetType": "task",
+      "targetId": "t2",
+      "author": "u_m2",
+      "text": "I think this price estimate is too high — check whether it includes the controller.",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    },
+    {
+      "id": "c2",
+      "targetType": "task",
+      "targetId": "t2",
+      "author": "u_m3",
+      "text": "Found another supplier, updated source attached.",
+      "createdAt": "2026-09-14T17:17:38.641Z"
+    }
+  ],
+  "opportunities": [],
+  "decisions": [],
+  "meeting": [],
+  "sessions": {
+    "829989218fc00aaacb3a28bac41f17649d542282cdcab317": {
+      "userId": "u_admin",
+      "createdAt": "2026-09-14T17:17:58.785Z"
+    }
+  }
+}

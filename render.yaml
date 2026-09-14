@@ -1,0 +1,17 @@
+# Render Blueprint — Render reads this file and sets everything up on its own.
+# The disk is what keeps your workspace data safe across restarts and updates.
+services:
+  - type: web
+    name: research-workspace
+    runtime: node
+    plan: starter
+    buildCommand: echo "no build step needed"
+    startCommand: node server.js
+    healthCheckPath: /
+    envVars:
+      - key: DATA_DIR
+        value: /var/data
+    disk:
+      name: workspace-data
+      mountPath: /var/data
+      sizeGB: 1
