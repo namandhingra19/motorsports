@@ -38,6 +38,7 @@ function verifyPassword(pw, stored) {
   return crypto.timingSafeEqual(Buffer.from(h, "hex"), Buffer.from(hash, "hex"));
 }
 
+
 function mondayOf(date) {
   const d = new Date(date);
   const day = (d.getDay() + 6) % 7; // 0 = Monday
@@ -636,6 +637,16 @@ const server = http.createServer(async (req, res) => {
 
     const user = currentUser(req);
     if (!user) return send(res, 401, { error: "Please sign in." });
+    
+    if (pathname === "/api/download-workspace" && req.method === "GET") {
+        res.writeHead(200, {
+            "Content-Type": "application/json; charset=utf-8",
+            "Content-Disposition": 'attachment; filename="workspace.json"',
+            "Cache-Control": "no-store"
+        });
+
+        return fs.createReadStream(DATA_FILE).pipe(res);
+    }
 
     if (pathname === "/api/state" && req.method === "GET") {
       return send(res, 200, { user: publicUser(user), state: publicState() });
