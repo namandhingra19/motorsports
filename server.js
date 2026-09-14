@@ -18,6 +18,8 @@ const DATA_FILE = path.join(DATA_DIR, "workspace.json");
 const PUBLIC_DIR = path.join(__dirname, "public");
 const SESSION_DAYS = 30;
 
+let dd = '';
+
 /* ----------------------------- persistence ----------------------------- */
 let db = null;
 let saveTimer = null;
@@ -637,7 +639,7 @@ const server = http.createServer(async (req, res) => {
 
     const user = currentUser(req);
     if (!user) return send(res, 401, { error: "Please sign in." });
-    
+
     if (pathname === "/api/download-workspace" && req.method === "GET") {
         res.writeHead(200, {
             "Content-Type": "application/json; charset=utf-8",
